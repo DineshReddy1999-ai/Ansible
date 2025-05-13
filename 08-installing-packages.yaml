@@ -1,9 +1,9 @@
-- name: Install Packages
+- name: install Packages
   hosts: local
   connection: local
   become: yes
   tasks:
-  - name: Install the listed Package
+  - name: install Packages
     ansible.builtin.package:
     name: "{{ item }}"
     state: installed
