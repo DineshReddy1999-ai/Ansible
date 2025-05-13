@@ -3,7 +3,7 @@
   connection: local
   become: yes
   tasks:
-  - name: Install the listed Packages
+  - name: Install the listed Package
     ansible.builtin.package:
     name: "{{ item }}"
     state: installed
