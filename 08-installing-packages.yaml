@@ -8,6 +8,6 @@
       name: "{{ item }}"
       state: installed
     loop:
-  - gcc
-  - nginx
-  - mysql
+    - gcc
+    - nginx
+    - mysql
